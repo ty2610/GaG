@@ -1,14 +1,17 @@
 <?php
-echo "IT'S WORKING";
+    echo "IT'S WORKING";
 ?>
 <html>
 
-<head>
-  <title>Home</title>
-</head>
+    <head>
+        <title>Home</title>
+        <!-- Foundation Framework files-->
+        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 
-<body>
+    </head>
 
-</body>
+    <body>
+        <div>as;</div>
+    </body>
 
 </html>
