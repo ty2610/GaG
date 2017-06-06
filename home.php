@@ -5,7 +5,7 @@
 
     <head>
         <title>Giant Airsoft Game</title>
-        <link rel="shortcut icon" type="image" href="img/favicon.ico">
+        <link rel="shortcut icon" type="image" href="img/favvicon.ico">
         <!-- Jquery and BootStrap js files -->
         <script type="text/javascript" src="js/Vendor/jquery-3.2.1.js"></script>
         <script type="text/javascript" src="js/Vendor/bootstrap.js"></script>
