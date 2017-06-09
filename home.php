@@ -9,7 +9,7 @@
         <link href="css/Vendor/bootstrap.css" rel="stylesheet">
         <link href="css/Vendor/bootstrap-theme.css" rel="stylesheet">
         <!-- local css and js -->
-        <link rel="stylesheet" href="css/home.css/">
+        <link rel="stylesheet" href="./css/home.css/">
 
     </head>
 
