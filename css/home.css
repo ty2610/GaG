@@ -1,5 +1,5 @@
 body {
-    background-image: url("../../img/contains.jpg");
+    background-image: url("/../img/contains.jpg");
     background-repeat: no-repeat;
     background-attachment:fixed;
 }
@@ -20,8 +20,8 @@ body {
 }
 
 .loseMargin {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .navlogo {
