@@ -43,10 +43,10 @@
                 </a>
                 <ul class="nav nav-justified">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="">Home</a>
                     </li>
                     <li>
-                        <a href="#">Details</a>
+                        <a href="/details.php">Details</a>
                     </li>
                     <li>
                         <a href="#">Map</a>
