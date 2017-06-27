@@ -25,7 +25,7 @@
                 </a>
                 <ul class="nav nav-justified">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="/home.php">Home</a>
                     </li>
                     <li>
                         <a href="#">Details</a>
