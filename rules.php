@@ -9,11 +9,12 @@
         <link href="css/Vendor/bootstrap.css" rel="stylesheet">
         <link href="css/Vendor/bootstrap-theme.css" rel="stylesheet">
         <!-- local css and js -->
-
+        <link rel="stylesheet" href="css/rules.css">
         <!-- global css -->
         <link rel="stylesheet" href="css/global.css">
 
     </head>
+
     <body>
         <div class="container" id="wholeDiv">
             <!-- NavBar -->
@@ -32,7 +33,7 @@
                         <a href="#">Map</a>
                     </li>
                     <li>
-                        <a href="#">Rules</a>
+                        <a href="">Rules</a>
                     </li>
                     <li>
                         <a href="#">Registration</a>
@@ -46,10 +47,19 @@
                 </ul>
             </nav>
             <!-- End NavBar -->
+            <!-- holder for everything but navbar -->
             <div id="contentHolder">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="ruleBox">
 
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
             </div>
         </div>
-
     </body>
 </html>

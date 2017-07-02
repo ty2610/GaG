@@ -55,7 +55,7 @@
                         <a href="#">Rules</a>
                     </li>
                     <li>
-                        <a href="http://localhost:63342/GaG/registration.php">Registration</a>
+                        <a href="#">Registration</a>
                     </li>
                     <li>
                         <a href="#">Pictures</a>

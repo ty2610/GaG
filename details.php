@@ -28,10 +28,10 @@
                         <a href="/home.php">Home</a>
                     </li>
                     <li>
-                        <a href="#">Details</a>
+                        <a href="">Details</a>
                     </li>
                     <li>
-                        <a href="#">Map</a>
+                        <a href="/map.php">Map</a>
                     </li>
                     <li>
                         <a href="#">Rules</a>
@@ -56,22 +56,10 @@
                         <div class="regInfoBox">
                             <ul class="list-unstyled textCentering">
                                 <li>
-                                    <h1 class="whiteShadow noMarginTop">Where?</h1>
+                                    <h1 class="noMarginTop">Where?</h1>
                                 </li>
                                 <li>
-                                    <h4 class="whiteShadow noMarginTop">2261 130th Ave Baldwin, WI 54013</h4>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="regInfoBox">
-                            <ul class="list-unstyled textCentering">
-                                <li>
-                                    <h1 class="whiteShadow noMarginTop">When?</h1>
-                                </li>
-                                <li>
-                                    <h4 class="whiteShadow noMarginTop">October 7th-8th, 2017</h4>
+                                    <h4 class="noMarginTop">2261 130th Ave Baldwin, WI 54013</h4>
                                 </li>
                             </ul>
                         </div>
@@ -80,13 +68,10 @@
                         <div class="regInfoBox">
                             <ul class="list-unstyled textCentering">
                                 <li>
-                                    <h1 class="whiteShadow noMarginTop">How Much?</h1>
+                                    <h1 class="noMarginTop">When?</h1>
                                 </li>
                                 <li>
-                                    <h4 class="whiteShadow noMarginTop">One Day Pass: $40</h4>
-                                </li>
-                                <li>
-                                    <h4 class="whiteShadow noMarginTop">Two Day Pass: $30</h4>
+                                    <h4 class="noMarginTop">October 7th-8th, 2017</h4>
                                 </li>
                             </ul>
                         </div>
@@ -95,10 +80,25 @@
                         <div class="regInfoBox">
                             <ul class="list-unstyled textCentering">
                                 <li>
-                                    <h1 class="whiteShadow noMarginTop">Camping?</h1>
+                                    <h1 class="noMarginTop">How Much?</h1>
                                 </li>
                                 <li>
-                                    <h4 class="whiteShadow noMarginTop">Camping is free!</h4>
+                                    <h4 class="noMarginTop">One Day Pass: $40</h4>
+                                </li>
+                                <li>
+                                    <h4 class="noMarginTop">Two Day Pass: $30</h4>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="regInfoBox">
+                            <ul class="list-unstyled textCentering">
+                                <li>
+                                    <h1 class="noMarginTop">Camping?</h1>
+                                </li>
+                                <li>
+                                    <h4 class="noMarginTop">Camping is free!</h4>
                                 </li>
                             </ul>
                         </div>
@@ -121,7 +121,7 @@
                         <div class="regBottomInfo">
                             <ul class="list-unstyled textCentering">
                                 <li>
-                                    <h1 class="whiteShadow noMarginTop">On Site Stores</h1>
+                                    <h1 class="noMarginTop">On Site Stores</h1>
                                 </li>
                                 <li>
                                     <h4 class="whiteShadow">CC Military Surplus</h4>
@@ -136,7 +136,7 @@
                         <div class="regBottomInfo">
                             <ul class="list-unstyled textCentering">
                                 <li>
-                                    <h1 class="whiteShadow noMarginTop">Rental Package: $30</h1>
+                                    <h1 class="noMarginTop">Rental Package: $30</h1>
                                 </li>
                                 <li>
                                     <h4 class="whiteShadow">AEG M4 (2 Magazines)</h4>
@@ -151,7 +151,7 @@
                         <div class="regBottomInfo">
                             <ul class="list-unstyled textCentering">
                                 <li>
-                                    <h1 class="whiteShadow noMarginTop">Individual Rentals</h1>
+                                    <h1 class="noMarginTop">Individual Rentals</h1>
                                 </li>
                                 <li>
                                     <h4 class="whiteShadow">Goggles: $5</h4>
