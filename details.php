@@ -4,6 +4,7 @@
         <title>Giant Airsoft Game</title>
         <!-- Jquery and BootStrap js files -->
         <script type="text/javascript" src="js/Vendor/jquery-3.2.1.js"></script>
+        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
         <script type="text/javascript" src="js/Vendor/bootstrap.js"></script>
         <!-- CSS for BootStrap -->
         <link href="css/Vendor/bootstrap.css" rel="stylesheet">
@@ -19,31 +20,36 @@
         <div class="container">
 
             <!-- NavBar -->
-            <nav class="navbar navbar-inverse" style="line-height:2.5">
-                <a class="navbar-brand navlogo" href="http://www.twincitiesairsoft.com/index.html">
+            <nav class="navbar navbar-inverse bg-inverse fiveMarginBottom">
+                <!--<a class="navbar-brand" href="http://www.twincitiesairsoft.com/index.html">
                     <img src="img/twin_cities_airsoft_logo_small.png">
-                </a>
+                </a> -->
                 <ul class="nav nav-justified">
-                    <li>
-                        <a href="/home.php">Home</a>
+                    <li class="nav-item">
+                        <a class="navlogo" href="http://www.twincitiesairsoft.com/index.html">
+                            <img src="img/twin_cities_airsoft_logo_small.png">
+                        </a>
                     </li>
-                    <li>
-                        <a href="">Details</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home.php">Home</a>
                     </li>
-                    <li>
-                        <a href="/map.php">Map</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Details</a>
                     </li>
-                    <li>
-                        <a href="#">Rules</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/map.php">Map</a>
                     </li>
-                    <li>
-                        <a href="#">Registration</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/rules.php">Rules</a>
                     </li>
-                    <li>
-                        <a href="#">Pictures</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Registration</a>
                     </li>
-                    <li>
-                        <a href="#">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pictures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -51,34 +57,40 @@
 
             <!-- holder for everything but navbar -->
             <div id="contentHolder">
-                <div class="row padThebottom">
+                <div class="row fivePadBottom">
                     <div class="col-md-3">
                         <div class="regInfoBox">
-                            <ul class="list-unstyled textCentering">
+                            <ul class="list-unstyled">
                                 <li>
                                     <h1 class="noMarginTop">Where?</h1>
                                 </li>
                                 <li>
-                                    <h4 class="noMarginTop">2261 130th Ave Baldwin, WI 54013</h4>
+                                    <h4 class="noMarginTop">2261 130th Ave</h4>
+                                </li>
+                                <li>
+                                    <h4 class="noMarginTop">Baldwin, WI 54013</h4>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="regInfoBox">
-                            <ul class="list-unstyled textCentering">
+                            <ul class="list-unstyled">
                                 <li>
                                     <h1 class="noMarginTop">When?</h1>
                                 </li>
                                 <li>
                                     <h4 class="noMarginTop">October 7th-8th, 2017</h4>
                                 </li>
+                                <li>
+                                    <h4 class="noMarginTop">Starts at 10:00 AM</h4>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="regInfoBox">
-                            <ul class="list-unstyled textCentering">
+                            <ul class="list-unstyled">
                                 <li>
                                     <h1 class="noMarginTop">How Much?</h1>
                                 </li>
@@ -93,18 +105,21 @@
                     </div>
                     <div class="col-md-3">
                         <div class="regInfoBox">
-                            <ul class="list-unstyled textCentering">
+                            <ul class="list-unstyled">
                                 <li>
                                     <h1 class="noMarginTop">Camping?</h1>
                                 </li>
                                 <li>
                                     <h4 class="noMarginTop">Camping is free!</h4>
                                 </li>
+                                <li>
+                                    <h4 class="noMarginTop">Bring Extra Water</h4>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="row padThebottom">
+                <div class="row fivePadBottom">
                     <div class="col-md-6">
                         <div class="regPictureBox">
                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d723302.2046925391!2d-92.64872301064526!3d44.91521604502075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b33299bfffffff%3A0x8be718fc0b1cf76a!2sTwin+Cities+Paintball+%26+Airsoft!5e0!3m2!1sen!2sus!4v1497919922388" width="555" height="380" frameborder="1px" style="border:0" allowfullscreen></iframe> -->
@@ -119,7 +134,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="regBottomInfo">
-                            <ul class="list-unstyled textCentering">
+                            <ul class="list-unstyled">
                                 <li>
                                     <h1 class="noMarginTop">On Site Stores</h1>
                                 </li>
@@ -128,18 +143,20 @@
                                     <h4 class="whiteShadow">OPFOR Airsoft</h4>
                                     <h4 class="whiteShadow">Airsoft Station</h4>
                                     <h4 class="whiteShadow">Diehard Airsoft</h4>
+                                    <h4 class="whiteShadow">TCA Front Desk</h4>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="regBottomInfo">
-                            <ul class="list-unstyled textCentering">
+                            <ul class="list-unstyled">
                                 <li>
-                                    <h1 class="noMarginTop">Rental Package: $30</h1>
+                                    <h1 class="noMarginTop">AEG Package: $30</h1>
                                 </li>
                                 <li>
-                                    <h4 class="whiteShadow">AEG M4 (2 Magazines)</h4>
+                                    <h4 class="whiteShadow">AEG M4</h4>
+                                    <h4 class="whiteShadow">2 Magazines</h4>
                                     <h4 class="whiteShadow">Battery</h4>
                                     <h4 class="whiteShadow">Goggles</h4>
                                     <h4 class="whiteShadow">2500 .20 bb's</h4>
@@ -149,15 +166,16 @@
                     </div>
                     <div class="col-md-4">
                         <div class="regBottomInfo">
-                            <ul class="list-unstyled textCentering">
+                            <ul class="list-unstyled">
                                 <li>
                                     <h1 class="noMarginTop">Individual Rentals</h1>
                                 </li>
                                 <li>
                                     <h4 class="whiteShadow">Goggles: $5</h4>
                                     <h4 class="whiteShadow">Battery: $5</h4>
-                                    <h4 class="whiteShadow">HP Bottle:$10 w/free refills</h4>
-                                    <h4 class="whiteShadow">$20 AEG M4 or $30 for Tippmann M4</h4>
+                                    <h4 class="whiteShadow">HP Bottle: $10 w/free refills</h4>
+                                    <h4 class="whiteShadow">$20 AEG M4 </h4>
+                                    <h4 class="whiteShadow">$30 Tippmann M4</h4>
                                 </li>
                             </ul>
                         </div>

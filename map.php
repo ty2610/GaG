@@ -17,31 +17,36 @@
     <body>
         <div class="container" id="wholeDiv">
             <!-- NavBar -->
-            <nav id="navBarTop" class="navbar navbar-inverse" style="line-height:2.5">
-                <a class="navbar-brand navlogo" href="http://www.twincitiesairsoft.com/index.html">
+            <nav class="navbar navbar-inverse bg-inverse fifteenMarginBottom">
+                <!--<a class="navbar-brand" href="http://www.twincitiesairsoft.com/index.html">
                     <img src="img/twin_cities_airsoft_logo_small.png">
-                </a>
+                </a> -->
                 <ul class="nav nav-justified">
-                    <li>
-                        <a href="/home.php">Home</a>
+                    <li class="nav-item">
+                        <a class="navlogo" href="http://www.twincitiesairsoft.com/index.html">
+                            <img src="img/twin_cities_airsoft_logo_small.png">
+                        </a>
                     </li>
-                    <li>
-                        <a href="/details.php">Details</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home.php">Home</a>
                     </li>
-                    <li>
-                        <a href="#">Map</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/details.php">Details</a>
                     </li>
-                    <li>
-                        <a href="#">Rules</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Map</a>
                     </li>
-                    <li>
-                        <a href="#">Registration</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/rules.php">Rules</a>
                     </li>
-                    <li>
-                        <a href="#">Pictures</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Registration</a>
                     </li>
-                    <li>
-                        <a href="#">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pictures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
             </nav>

@@ -3,7 +3,46 @@
     margin-right: 0;
     margin-left: 0;
 }
-
 .navlogo {
     padding: 10px 15px;
+    display: inline-block;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.noMarginTop{
+    margin-top: 0px;
+}
+.noMarginBottom {
+    margin-bottom: 0px;
+}
+.tenMarginTopAndBottom {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tenMarginTop {
+    margin-top: 10px;
+}
+.tenMarginBottom {
+    margin-bottom: 10px;
+}
+.fiveMarginBottom{
+    margin-bottom: 5px;
+}
+.fifteenPadBottom {
+    padding-bottom: 15px;
+}
+.fivePadBottom {
+    padding-bottom: 5px;
+}
+.fifteenMarginBottom {
+    margin-bottom: 15px;
+}
+.noPaddingTop {
+    padding-top: 0px;
+}
+.grayBackground {
+    background: #4d525c;
 }

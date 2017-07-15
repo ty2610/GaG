@@ -5,16 +5,18 @@ body {
     background-position: bottom;
 }
 .regInfoBox{
-    height: 150px;
     background: #4d525c;
     border-radius: 15px;
     text-align: center;
+    padding-bottom: 1px;
+    margin-top: 10px;
 }
 .regPictureBox{
     height: 380px;
     background: #4d525c;
     border-radius: 15px;
     text-align: center;
+    margin-top:10px;
     overflow: hidden;
 }
 .imgRegRun {
@@ -26,23 +28,18 @@ h1,h4 {
     color: white;
     text-shadow: 1px 1px black;
 }
-.padThebottom {
-    padding-bottom: 15px;
-}
 .regBottomInfo {
-    height: 200px;
     background: #4d525c;
     border-radius: 15px;
     text-align: center;
+    padding-bottom: 1px;
+    margin-top: 10px;
 }
 .padTheTop{
     padding-top: 10px;
 }
-.noMarginTop{
-    margin-top: 0px;
-}
-.textCentering{
-    padding-top: 20px;
+ul {
+    margin-bottom: 0px;
 }
 
 

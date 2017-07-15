@@ -1,10 +1,47 @@
+body {
+    text-shadow: 1px 1px black;
+    background-image: url("../img/rules_pic.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .ruleBox {
     background: #4d525c;
     border-radius: 15px;
     text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
-h1,h4 {
+.titleBox {
+    width:100%;
+    background: #4d525c;
+    border-radius: 15px;
+    text-align: center;
+    outline: none !important;
+}
+h1,h4,h2,h3 {
     color: white;
     text-shadow: 1px 1px black;
+}
+p {
+    color: white;
+    text-shadow: 1px 1px black;
+    margin-bottom: 0px;
+}
+.textPadding {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.listNumberStyle {
+    color: white;
+    padding-left: 15px;
+}
+.noBorder {
+    background: none;
+    border: none;
+}
+.btn:focus,.btn:active {
+    outline: none !important;
 }
