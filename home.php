@@ -4,6 +4,7 @@
         <title>Giant Airsoft Game</title>
         <!-- Jquery and BootStrap js files -->
         <script type="text/javascript" src="js/Vendor/jquery-3.2.1.js"></script>
+        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
         <script type="text/javascript" src="js/Vendor/bootstrap.js"></script>
         <!-- CSS for BootStrap -->
         <link href="css/Vendor/bootstrap.css" rel="stylesheet">
@@ -12,12 +13,16 @@
         <link rel="stylesheet" href="css/home.css">
         <!-- global css -->
         <link rel="stylesheet" href="css/global.css">
+        <!-- trying Flickity Stuff -->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
 
     </head>
 
     <body>
         <script>
             $(document).ready(function(){
+                $("#carouselExampleIndicators").carousel();
 
                 $("#wholeDiv").hover(
                     function(){
@@ -34,7 +39,7 @@
                     });
             });
         </script>
-        <div class="container" id="wholeDiv">
+        <div class="container-fluid containerWidth" id="wholeDiv">
 
             <!-- NavBar -->
             <nav class="navbar navbar-inverse bg-inverse fifteenMarginBottom">
@@ -54,19 +59,10 @@
                         <a class="nav-link" href="/details.php">Details</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/map.php">Map</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="/rules.php">Rules</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Registration</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pictures</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="mailto:darrinjohnson@comcast.net">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -86,48 +82,45 @@
                 <div id="Clash" class="row stripeBox loseMargin">
                     <div class="col-md-3">
                         <ul class="list-group" style="box-shadow:none">
-                            <li class="list-group-item listLoseBackground" style="border: none">
+                            <li class="list-group-item listLoseBackground" style="border: none;">
                                 <h3>Giant Airsoft Game VIII</h3>
                             </li>
-                            <li class="list-group-item listLoseBackground" style="border: none">
+                            <li class="list-group-item listLoseBackground" style="border: none;">
                                 <h3>2261 130th Ave Baldwin, WI 54013</h3>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
-                        <img src="img/WhiteSword.png">
+                    <div class="col-md-6 text-center">
+                        <img class="scaleBattleImage" src="img/WhiteSword.png">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 padTopTwelve">
                         <h3 style="color:white">October 7th-8th, 2017</h3>
                     </div>
                 </div>
                 <!-- End Clash Section -->
                 <!-- Carousel -->
-                <div id="carouselExampleIndicators" class="carousel slide carouselBackground" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner fixingSizeCar" role="listbox">
-                        <div class="item peopleCarouselImg active">
-                            <img class="d-block img-fluid" src="img/honeyBadger.jpg" alt="First slide">
-                        </div>
-                        <div class="item peopleCarouselImg">
-                            <img class="d-block img-fluid" src="img/lil%20Reb.jpg" alt="Second slide">
-                        </div>
-                        <div class="item peopleCarouselImg">
-                            <img class="d-block img-fluid" src="img/MahemField.jpg" alt="Third slide">
+                <div class="flickity-carousel" data-flickity>
+                    <div class="carousel-cell">
+                        <div class="container tenMarginTop">
+                            <div class="carousel-caption d-md-block">
+                                <img class="scaleImage" src="img/honeyBadger.jpg">
+                            </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="carousel-cell">
+                        <div class="container tenMarginTop">
+                            <div class="carousel-caption d-md-block">
+                                <img class="scaleImage" src="img/lil%20Reb.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="container tenMarginTop">
+                            <div class="carousel-caption d-md-block">
+                                <img class="scaleImage" src="img/MahemField.jpg">
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- End Carousel -->
             </div>

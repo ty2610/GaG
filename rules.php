@@ -12,11 +12,10 @@
         <link rel="stylesheet" href="css/rules.css">
         <!-- global css -->
         <link rel="stylesheet" href="css/global.css">
-
     </head>
 
     <body>
-        <div class="container" id="wholeDiv">
+        <div class="container-fluid containerWidth" id="wholeDiv">
             <!-- NavBar -->
             <nav class="navbar navbar-inverse bg-inverse fifteenMarginBottom">
                 <!--<a class="navbar-brand" href="http://www.twincitiesairsoft.com/index.html">
@@ -35,19 +34,10 @@
                         <a class="nav-link" href="/details.php">Details</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/map.php">Map</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="">Rules</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Registration</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pictures</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="mailto:darrinjohnson@comcast.net">Contact</a>
                     </li>
                 </ul>
             </nav>

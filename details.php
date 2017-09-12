@@ -17,7 +17,7 @@
     </head>
 
     <body>
-        <div class="container">
+        <div class="container-fluid containerWidth">
 
             <!-- NavBar -->
             <nav class="navbar navbar-inverse bg-inverse fiveMarginBottom">
@@ -37,19 +37,10 @@
                         <a class="nav-link" href="">Details</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/map.php">Map</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="/rules.php">Rules</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Registration</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pictures</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="mailto:darrinjohnson@comcast.net">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -95,10 +86,10 @@
                                     <h1 class="noMarginTop">How Much?</h1>
                                 </li>
                                 <li>
-                                    <h4 class="noMarginTop">One Day Pass: $40</h4>
+                                    <h4 class="noMarginTop">One Day Pass: $50</h4>
                                 </li>
                                 <li>
-                                    <h4 class="noMarginTop">Two Day Pass: $30</h4>
+                                    <h4 class="noMarginTop">Two Day Pass: $60</h4>
                                 </li>
                             </ul>
                         </div>
@@ -122,7 +113,7 @@
                 <div class="row fivePadBottom">
                     <div class="col-md-6">
                         <div class="regPictureBox">
-                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d723302.2046925391!2d-92.64872301064526!3d44.91521604502075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b33299bfffffff%3A0x8be718fc0b1cf76a!2sTwin+Cities+Paintball+%26+Airsoft!5e0!3m2!1sen!2sus!4v1497919922388" width="555" height="380" frameborder="1px" style="border:0" allowfullscreen></iframe> -->
+                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d723302.2046925391!2d-92.64872301064526!3d44.91521604502075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b33299bfffffff%3A0x8be718fc0b1cf76a!2sTwin+Cities+Paintball+%26+Airsoft!5e0!3m2!1sen!2sus!4v1497919922388" width="607" height="380" frameborder="1px" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -136,14 +127,14 @@
                         <div class="regBottomInfo">
                             <ul class="list-unstyled">
                                 <li>
-                                    <h1 class="noMarginTop">On Site Stores</h1>
+                                    <h1 class="noMarginTop">2000$ of Prizes</h1>
                                 </li>
                                 <li>
-                                    <h4 class="whiteShadow">CC Military Surplus</h4>
-                                    <h4 class="whiteShadow">OPFOR Airsoft</h4>
-                                    <h4 class="whiteShadow">Airsoft Station</h4>
-                                    <h4 class="whiteShadow">Diehard Airsoft</h4>
-                                    <h4 class="whiteShadow">TCA Front Desk</h4>
+                                    <h4 class="whiteShadow">Prizes include 4 guns given</h4>
+                                    <h4 class="whiteShadow">away each day</h4>
+                                    <h4 class="whiteShadow">The first 400 players</h4>
+                                    <h4 class="whiteShadow">get an exclusive custom</h4>
+                                    <h4 class="whiteShadow">Giant Airsoft Game patch</h4>
                                 </li>
                             </ul>
                         </div>

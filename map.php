@@ -4,6 +4,7 @@
         <title>Giant Airsoft Game</title>
         <!-- Jquery and BootStrap js files -->
         <script type="text/javascript" src="js/Vendor/jquery-3.2.1.js"></script>
+        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
         <script type="text/javascript" src="js/Vendor/bootstrap.js"></script>
         <!-- CSS for BootStrap -->
         <link href="css/Vendor/bootstrap.css" rel="stylesheet">

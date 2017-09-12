@@ -2,6 +2,7 @@ body {
     background-image: url("../img/contains.jpg");
     background-repeat: no-repeat;
     background-attachment:fixed;
+    background-position: bottom;
 }
 
 .stripeBox {
@@ -13,6 +14,13 @@ body {
              #333 20px
      );
  }
+h3 {
+    font-size: 2vw;
+}
+
+.padTopTwelve {
+    padding-top: 12px;
+}
 
 .listLoseBackground {
     background:inherit;
@@ -25,6 +33,17 @@ body {
     margin: 20px auto;
 }
 
+.scaleImage {
+    height: auto;
+    max-height: 450px;
+    max-width: 100%;
+}
+
+.scaleBattleImage {
+    height: auto;
+    max-width: 100%;
+}
+
 .fixingSizeCar {
     width: 100%;
     height: 500px;
@@ -32,4 +51,15 @@ body {
 
 .carouselBackground {
     background-color: #222;
+}
+
+.carousel-cell {
+    height: 500px;
+    width: 100%;
+    background-color: #222;
+    position: relative;
+}
+
+.carousel-cell .container {
+    height: 100%;
 }

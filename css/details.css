@@ -13,7 +13,6 @@ body {
 }
 .regPictureBox{
     height: 380px;
-    background: #4d525c;
     border-radius: 15px;
     text-align: center;
     margin-top:10px;
@@ -27,6 +26,12 @@ body {
 h1,h4 {
     color: white;
     text-shadow: 1px 1px black;
+}
+h1 {
+    font-size: 2.7vw;
+}
+h4 {
+    font-size: 2vw;
 }
 .regBottomInfo {
     background: #4d525c;
